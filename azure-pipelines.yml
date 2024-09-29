@@ -4,7 +4,7 @@ trigger:
       - master
 
 pool:
-  vmImage: 'az-cicd-agent'
+  name: 'default'
 
 steps:
 - task: UseDotNet@2
